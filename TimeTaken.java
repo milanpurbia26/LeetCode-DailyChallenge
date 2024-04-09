@@ -13,6 +13,6 @@ public class TimeTaken {
                 }
             }
         }
-        System.out.println("Time taken for kth person finish buying ticket " + timeTaken);
+        System.out.println("Time taken  for kth person finish buying ticket " + timeTaken);
     }
 }
