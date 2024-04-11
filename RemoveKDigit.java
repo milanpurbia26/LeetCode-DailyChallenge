@@ -32,6 +32,9 @@ public class RemoveKDigit {
         {
             result.insert(0,st.pop());
         }
+        while(result.length() >0 && result.charAt(0) == '0')
+        result.deleteCharAt(0);
+        
         return result.length() == 0 ? "0" : result.toString();
     }
 }
